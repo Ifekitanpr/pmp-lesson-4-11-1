@@ -1,4 +1,4 @@
-import React,{useState}from'react';import{createRoot}from'react-dom/client';import{createPortal}from'react-dom';import{ArrowLeft,ArrowRight,Check,ChevronDown,FileLock2,Gavel,HardHat,Leaf,Menu,Scale,ShieldCheck,Target,Volume2,VolumeX,X}from'lucide-react';import'./styles.css';const A='/assets/';
+import React,{useState}from'react';import{createRoot}from'react-dom/client';import{createPortal}from'react-dom';import{ArrowLeft,ArrowRight,Check,ChevronDown,FileLock2,Gavel,HardHat,Leaf,Menu,Scale,ShieldCheck,Target,Volume2,VolumeX,X}from'lucide-react';import'./styles.css';const A='./assets/';
 const tabs=['Before opening','What it means','Six-domain map','Exam lens'];
 const domains=[
 ['Legal and Contractual','05-legal.png','Statutes, contract law, intellectual property rights, employment rules. The baseline legal obligations any project operates inside, regardless of industry — the terms a contract actually commits the organization to, and the IP ownership questions a deliverable might raise.'],
